@@ -622,7 +622,7 @@ robyn_mmm <- function(InputCollect,
             upper.limits = upper.limits,
             type.measure = "mse",
             penalty.factor = penalty.factor
-            # ,intercept = FALSE
+            ,intercept = FALSE
           ) # plot(glm_mod); coef(glm_mod)
 
           # # When we used CV instead of nevergrad
