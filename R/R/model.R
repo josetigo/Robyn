@@ -1270,6 +1270,7 @@ model_refit <- function(x_train, y_train, lambda, lower.limits, upper.limits, in
     lambda = lambda,
     lower.limits = lower.limits,
     upper.limits = upper.limits
+    ,intercept = FALSE
   ) # coef(mod)
 
   df.int <- 1
